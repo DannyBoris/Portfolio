@@ -1,0 +1,22 @@
+.tech-icon {
+  position: relative;
+  padding: 12px 24px;
+  border-radius: 8px;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in;
+
+  }
+  &.hovered {
+    span {
+      background: #0d0a0a;
+      text-align: center;
+      color: white;
+      padding: 12px 24px;
+    }
+  }
+}
