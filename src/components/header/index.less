@@ -5,14 +5,16 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 
-  ul:first-child {
+  ul {
     padding: 0;
     margin: 0;
     list-style: none;
 
-    li {
-      padding: 24px;
-      border-bottom: 1px solid rgba(144, 144, 144, .2);
+    &:first-child {
+      li {
+        padding: 24px;
+        border-bottom: 1px solid rgba(144, 144, 144, 0.2);
+      }
     }
 
     a {
