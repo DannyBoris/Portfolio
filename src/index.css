@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * > * {
   box-sizing: border-box;
+  font-family: "Muli";
 }
 
 body {
@@ -14,5 +18,11 @@ body {
 
 .rpv-core__inner-page {
   display: flex;
-justify-content: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }

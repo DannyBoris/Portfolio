@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./index.less";
 
-const TechIcon = ({ icon, name }: { icon: string; name: string }) => {
+const TechIcon = ({ icon = "", name = "" }: { icon: string; name: string }) => {
   const [isHovered, setHovered] = useState(false);
 
   function handleHover() {
     setHovered((prev) => !prev);
   }
+
+  console.log(name)
 
   return (
     <div

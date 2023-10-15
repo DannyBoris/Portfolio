@@ -42,7 +42,9 @@ const Projects = () => {
       description:
         "Vimeo create is the leading technology for video creation and editting used by millions worldwide.",
       developmentYears: "2020-2021",
-      images: [],
+      images: {
+        desktop: "/images/vimeo-desktop.png",
+      },
       techUsed: [techs.react, techs.redux, techs.ts],
       link: "https://vimeo.com/create",
     },
@@ -59,7 +61,10 @@ const Projects = () => {
       description:
         "Gamifyd.ai is an AI platform for game creation (unreal engine) from music files",
       developmentYears: "2018-2019",
-      images: [],
+      images: {
+        desktop: "/images/gamifyd-desktop.png",
+        mobile: "/images/gamifyd-mobile.png",
+      },
       techUsed: [techs.react, techs.aws, techs],
       link: "https://master.gamifyd.ai",
     },
